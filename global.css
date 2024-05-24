@@ -1,0 +1,56 @@
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+  }
+  
+  .center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  a .arrow{
+    font-size: 1.2em !important;
+    color: green;
+    cursor: default;
+    position: absolute;
+    transition: 1s;
+    padding-left: 5px;
+    transform:translateY(-1.5px)
+}
+a:hover .arrow{
+    transition: 1s;
+    transform: translate(10px,-4px);
+    font-size: 1.3em !important;
+    color: white;
+}
+
+footer a:hover{
+  color:green;
+  text-decoration-line:none;
+  transition: 1s;
+}
+
+footer a{
+  color:blue;
+  text-decoration-line:none;
+  transition: 1s;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color:gray;
+}

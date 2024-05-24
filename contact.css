@@ -1,0 +1,61 @@
+#loader1 {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+  }
+.center1 {
+    position: relative;
+    bottom: 8px;
+    right: 100px;
+  }
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#contact{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    padding: 10px;
+    border: 1px solid;
+    text-align: left;
+    visibility: hidden;
+
+}
+.close{
+    right: 4px;
+    bottom: 4px;
+    position: absolute;
+}
+button{
+    border: none;
+    background-color: white;
+}
+
+button:active{
+    background-color: blue;
+}
+
+#contactbutton{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    padding: 25px 75px;
+    
+}
+
+#loader1{
+    visibility: hidden;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+  }

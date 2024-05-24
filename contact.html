@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <div id="loader" class="center"></div>
+    <script>
+
+        function Action(){
+            document.querySelector("#contact").style.visibility = "hidden";
+            document.querySelector("#loader1").style.visibility = "visible";
+            setTimeout(() => window.location.replace("lol.mp4"),5000);
+        }
+        function Close() {
+            document.querySelector("#contact").style.visibility = "hidden";
+            document.querySelector("#contactbutton").style.visibility = "visible";
+        };
+        function Show() {
+            document.querySelector("#contact").style.visibility = "visible";
+            document.querySelector("#contactbutton").style.visibility = "hidden";
+        };
+
+
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector("body").style.visibility = "hidden";
+                document.querySelector("#loader").style.visibility = "visible";
+            } else {
+                document.querySelector("#loader").style.display = "none";
+                document.querySelector("body").style.visibility = "visible";
+                
+            }
+
+        
+        };
+    </script>
+</head>
+<body>
+
+
+    <body>
+    <h2>Kontaty</h2>
+    <p>Email: nvidia@gmail.com</p>
+    <p>Tel: +420 456 465 312</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button onclick="Show()" id="contactbutton">Send Me some Message</button>
+        <div id="contact">
+            <button class="close" onclick="Close()">Close</button>
+            <div>Email: <input type="text" placeholder="example@gmail.com"></div>
+            <div>Předmět: <input  type="text" placeholder="Předmět"/></div>
+            <div>Zpráva: <textarea placeholder="Něco"></textarea></div>
+            <button id="action", onclick="Action()">Submit</button>
+            <div id="loader1" class="center1"></div>
+            
+            </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

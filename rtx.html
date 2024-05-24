@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Games Showcase</title>
+    <link rel="stylesheet" href="rtx.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+
+ 
+    <div id="loader" class="center"></div>
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="containerRTX">
+        <h1>RTX. Je to tady.</h1>
+        <h3>Dokonalý Ray Tracing a umělá inteligence</h3>
+        <p>NVIDIA RTX je nejpokročilejší platforma pro technologie využívající ray tracing a umělou inteligenci, které přináší revoluci v hraní i tvorbě. Více než 500 top her a aplikací používá RTX k vykreslování realistické grafiky s neuvěřitelně vysokým výkonem a novými špičkovými funkcemi umělé inteligence, jako jsou NVIDIA DLSS 3.5 s Ray Reconstruction.RTX. Je to tady</p>
+        <a href="https://www.nvidia.com/cs-cz/geforce/rtx/#latest-rtx-games"><button>Podívej se na nejnovější hry s RTX</button></a>
+    </div>
+
+
+
+    <ul>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#RayTracing">Ray Tracing</a></li>
+        <li><a href="#dlss">DLSS 3</a></li>
+        <li><a href="#vytvorit">Vytvořit</a></li>
+        <li><a href="#HrySRTX">Hry s RTX</a></li>
+        <li class="back"><a href="index.html">Back</a></li>
+      </ul>
+
+
+<div id="video">
+    <!--<div class="sticky">Video</div>-->
+    <div class="containerVIDEO">
+        <h1>Podívej se na RTX v nejoblíbenějších hrách dneška.</h1>
+        <iframe src="https://www.youtube.com/embed/YS8-smNHOhs" height="300" width="550" frameborder="0"></iframe>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+<div id="RayTracing">
+    <!--<div class="sticky">Ray Tracing</div>-->
+    <div class="black">
+        <h5>Ray Tracing</h5>
+        <h2>Hyperrealistická. Hyperrychlá.</h2>
+        <p>Architektura NVIDIA Ada Lovelace přináší v plné parádě výkon ray tracingu, který simuluje chování světla ve skutečném světě. Díky výkonu GeForce RTX řady 40 a jader RT 3. generace si můžeš užívat neuvěřitelně detailní virtuální světy jako nikdy předtím.</p>
+    </div>
+    
+
+    <div class="raytracingcontainer"></div>
+
+
+
+</div>
+
+<div id="dlss">
+    <!--<div class="sticky">DLSS 3</div>-->
+    <div class="containerDLSS">
+        <h5>NVIDIA DLSS 3</h5>
+        <h3>Maximální FPS. Maximální kvalita. Díky AI.</h3>
+        <p>DLSS je revoluční milník v grafice s umělou inteligencí, která násobí výkon. K vytváření většího počtu snímků a ke zvýšení kvality obrazu využívá DLSS 3 běžící na grafických kartách GeForce RTX řady 40 umělou inteligenci, nová jádra Tensor 4. generace a akcelerátor optického toku (Optical Flow Accelerator).</p>
+        <a href="dlss.html">Zjisti, jak DLSS funguje <span class="arrow">></span></a>
+    </div>
+</div>
+
+
+
+<div id="vytvorit">
+    <div class="containerVYTVORIT">
+        <div>
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1829616875/nv_teaser.coreimg.100.630.jpeg/1694172202435/nvidia-studio.jpeg">
+            <h5>Platforma NVIDIA Studio</h5>
+            <h1>Umělá inteligence pro tvoji tvorbu.</h1>
+            <p>Posuň své kreativní projekty na novou úroveň díky platformě NVIDIA Studio. Grafické karty RTX řady 40 nabízejí nepřekonatelný výkon díky dedikovanému hardwaru pro 3D renderování, úpravu videa a grafický design. Zažij akceleraci RTX bohatou na funkce v top kreativních aplikacích, špičkové ovladače platformy NVIDIA Studio navržené tak, aby poskytovaly maximální stabilitu, a sadu exkluzivních nástrojů, které využívají výkon RTX pro kreativní pracovní postupy podporované umělou inteligencí.            </p>
+            <a href="https://www.nvidia.com/cs-cz/studio/">Zrychli svoji kreativitu<span class="arrow">></span></a>
+        </div>
+        <div>
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1829616875/nv_teaser_1751267819.coreimg.100.630.jpeg/1694172198415/geforce-broadcast-app.jpeg">
+            <h5>Aplikace NVIDIA Broadcast</h5>
+            <h1>Tvé domácí studio s umělou inteligencí.</h1>
+            <p>Aplikace NVIDIA Broadcast promění každou místnost na domácí studio - posuň své streamy, videochaty a konferenční hovory na novou úroveň s výkonnými efekty umělé inteligence, jako jsou odstranění hluku a ozvěny v místnosti, virtuální pozadí a další.</p>
+            <a href="https://www.nvidia.com/cs-cz/geforce/broadcasting/">Vylepši svůj zvuk a video<span class="arrow">></span></a>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="HrySRTX">
+    <div class="sticky">Hry s RTX</div>
+    <div class="container">
+        <div class="game">
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_2053139686/nv_container/nv_teaser.coreimg.100.630.jpeg/1685206813768/geforce-rtx-games-portal-rtx.jpeg">
+            <div class="title">Portal s RTX</div>
+            <div class="description">
+                Prožij znovu recenzenty chválenou hru Portal™, která byla přepracována pomocí ray tracingu, průlomového výkonu NVIDIA DLSS 3 akcelerovaného umělou inteligencí a nejlepší odezvy s NVIDIA Reflex.
+            </div>
+            <div class="technologies">
+                Technologie: Plný ray tracing, DLSS 3, DLSS 2 a Reflex.
+            </div>
+            <div class="links">
+                <div><a href="https://www.youtube.com/watch?v=CAf1E7kCbMA">Podívej se na video<span class="arrow">></span></a></div>
+                <div><a href="https://www.nvidia.com/en-gb/geforce/news/portal-with-rtx-full-ray-tracing-december-8/">Více zde<span class="arrow">></span></a></div>
+            </div>
+        </div>
+        <div class="game">
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1170006541/nv_container/nv_teaser_copy.coreimg.100.630.jpeg/1685326721537/geforce-rtx-games-minecraft1.jpeg">
+            <div class="title">Minecraft pro Windows Bedrock Edition</div>
+            <div class="description">
+                Buduj, vytvářej a objevuj své světy ve hře Minecraft jako nikdy předtím díky technologii RTX.
+            </div>
+            <div class="technologies">
+                Technologie: Plný ray tracing a DLSS 2.
+            </div>
+            <div class="links">
+                <div><a href="https://www.youtube.com/watch?v=D1U1S5GzvJ8&feature=emb_title">Podívej se na video<span class="arrow">></span></a></div>
+                <div><a href="https://www.nvidia.com/cs-cz/geforce/campaigns/minecraft-with-rtx/">Více zde<span class="arrow">></span></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+        <div class="game">
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_200377536/nv_container_763405312/nv_teaser.coreimg.100.630.jpeg/1704446532973/geforce-cyberpunk-3480x2160-1mb.jpeg">
+            <div class="title">Cyberpunk 2077: Ultimate Edition</div>
+            <div class="description">
+                PZažij Cyberpunk 2077 s výkonem GeForce RTX. Ponoř se do každého příběhu, který tento svět temné budoucnosti nabízí, včetně základní hry a jejího oceňovaného rozšíření v podobě špionážního-thrilleru Phantom Liberty, které je vylepšeno neuvěřitelným plně ray-tracovaným grafickým zobrazením a NVIDIA DLSS 3.5 s Ray Reconstruction.
+            </div>
+            <div class="technologies">
+                Technologie: Plný ray tracing, DLSS 3.5, DLSS 3, DLSS 2 a Reflex.
+            </div>
+            <div class="links">
+                <div><a href="https://www.youtube.com/watch?v=hKfo__zgjto">Podívej se na video<span class="arrow">></span></a></div>
+                <div><a href="https://www.nvidia.com/en-gb/geforce/campaigns/cyberpunk-2077/">Více zde<span class="arrow">></span></a></div>
+            </div>
+        </div>
+        <div class="game">
+            <img src="https://www.nvidia.com/cs-cz/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1170006_587222542/nv_container_152140713/nv_teaser_copy.coreimg.100.630.jpeg/1685206913546/fortnite.jpeg">
+            <div class="title">Fortnite</div>
+            <div class="description">
+                Nasedni do Battle Busu a staň se posledním přeživším nebo se zapoj do stavby svého vysněného světa s GeForce RTX.
+            </div>
+            <div class="technologies">
+                Technologie: Ray tracing, DLSS 2 a Reflex.
+            </div>
+            <div class="links">
+                <div><a href="https://www.youtube.com/watch?v=AS_3gm2SISk&feature=emb_title">Podívej se na video<span class="arrow">></span></a></div>
+                <div><a href="https://www.nvidia.com/en-gb/geforce/news/fortnite-rtx-on-ray-tracing-nvidia-dlss-reflex/">Více zde<span class="arrow">></span></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Toto je clone z webové stránky <a href="https://www.nvidia.com/cs-cz/geforce/rtx/">https://www.nvidia.com/cs-cz/geforce/graphics-cards/40-series/rtx-4090/</a></p>
+        <p>Udělal Justin Jindřich Lukes</p>
+        <p>Udělal jsem za 6h 34m</p>
+        <a href="contact.html">Contact</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,242 @@
+
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin:0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.game {
+    max-width: 600px;
+    margin: 10px;
+    text-align: center;
+}
+.game img {
+    width: 100%;
+    height: auto;
+}
+.title {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.description {
+    font-size: 1em;
+    margin: 20px 0;
+}
+.technologies {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+.links {
+    margin: 20px 0;
+}
+.links a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1em;
+}
+.footer{
+    text-align: center;
+    padding: 50px;
+    background-color:gray;
+}
+
+.black{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3em;
+    background-color:#000000;
+}
+
+
+.containerDLSS{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/nvidia-dlss-video-xlrg-hero-background-bb550-t.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-clip: unset;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a .arrow{
+    font-size: 1.2em !important;
+    color: green;
+    cursor: default;
+    position: absolute;
+    transition: 1s;
+    padding-left: 5px;
+    transform:translateY(-1.5px)
+}
+a:hover .arrow{
+    transition: 1s;
+    transform: translate(10px,-4px);
+    font-size: 1.3em !important;
+    color: white;
+}
+
+
+
+
+
+
+/* V1
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: green;
+    text-align: center;
+  }
+*/
+div.sticky {
+    font-weight: bold;
+    font-size: 2em;
+    top: 0;
+    padding: 5px;
+    text-align: center;
+  }
+
+
+
+.containerVYTVORIT{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.containerVYTVORIT a{
+    font-size: 1.3em;
+}
+.containerVYTVORIT div{
+    max-width: 600px;
+    margin: 10px;
+    text-align: center;
+}
+
+.containerVYTVORIT img{
+    width: 100%;
+    height: auto;
+}
+
+.containerVIDEO{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-video-xlrg-hero-background-bb770-d@2x.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-clip: unset;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+}
+.containerVIDEO h1{
+    padding-bottom: 50px;
+}
+
+.back{
+    background-color: red;
+    float: right;
+}
+
+
+.containerRTX button{
+    font-size:150%;
+    color: #000000;
+    background-color: #76b900;
+    border: none;
+}
+.containerRTX{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-500-games-apps-bm-l580-d.jpg");
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-clip: unset;
+    background-position: center;
+    background-size: cover;
+    font-size:150%;
+}
+.containerRTX p{
+    max-width: 40%;
+}
+
+.footer a:hover{
+    color: green;
+}
+
+
+
+
+.raytracingcontainer{
+    animation: imageAni 5s linear 5s infinite alternate-reverse;
+    padding: 500px;
+}
+  @keyframes imageAni {
+    from {background: url(raytracingoff.webp) no-repeat center center fixed;}
+    to {background: url(raytracingon.webp) no-repeat center center fixed;}
+  }
+

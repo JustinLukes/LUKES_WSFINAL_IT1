@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dlss.css">
+    <link rel="stylesheet" href="global.css">
+    <div id="loader" class="center"></div>
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector("body").style.visibility = "hidden";
+                document.querySelector("#loader").style.visibility = "visible";
+            } else {
+                document.querySelector("#loader").style.display = "none";
+                document.querySelector("body").style.visibility = "visible";
+            }
+
+        
+        };
+    </script>
+
+    <div class="containerMAIN">
+        <h3>NVIDIA DLSS 3</h3>
+        <h1>Maximální FPS. Maximální kvalita. Díky AI.</h1>
+        <p>DLSS je revoluční milník v grafice s umělou inteligencí, která násobí výkon. K vytváření většího počtu snímků a ke zvýšení kvality obrazu využívá DLSS 3 běžící na grafických kartách GeForce RTX řady 40 umělou inteligenci, nová jádra Tensor 4. generace a akcelerátor optického toku (Optical Flow Accelerator).</p>
+    </div>
+</head>
+<body>
+    <ul>
+        <li><a href="#FrameGeneration">Frame Generation</a></li>
+        <li><a href="#RayReconstruction">Ray Reconstruction</a></li>
+        <li><a href="#SuperResolution">Super Resolution</a></li>
+        <li><a href="#DLAA">Deep Learning Anti-aliasing</a></li>
+        <li><a href="#vykon">Výkon</a></li>
+        <li class="back"><a href="index.html">Back</a></li>
+
+
+      </ul>
+      <div class="containerTABLE">
+        <h1>Funkce DLSS</h1>
+        <table>
+
+                <tr>
+                    <th></th>
+                    <th>Technologie Super Resolution a Deep Learning Anti-aliasing <p>(všechny grafické karty GeForce RTX)</p></th>
+                    <th>Frame Generation<p>(grafické karty GeForce RTX řady 40)</p></th>
+                    <th>Ray Reconstruction<p>(všechny grafické karty GeForce RTX)</p></th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>DLSS 3.5</td>
+                    <td>YES</td>
+                    <td>YES</td>
+                    <td>NO</td>
+                </tr>
+                <tr>
+                    <td>DLSS 3</td>
+                    <td>YES</td>
+                    <td>YES</td>
+                    <td>NO</td>
+                </tr>
+                <tr>
+                    <td>DLSS 2</td>
+                    <td>YES</td>
+                    <td>NO</td>
+                    <td>NO</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    <div id="FrameGeneration">
+      <div class="containerFRAME">
+        <h1>DLSS Frame Generation</h1>
+        <p>Zvyšuje výkon pomocí umělé inteligence, aby generovala více snímků při zachování skvělé odezvy s NVIDIA Reflex. DLSS běžící na grafických kartách GeForce RTX řady 40 analyzuje po sobě jdoucí snímky a pohybová data z nového akcelerátoru optického toku k vytváření většího množství vysoce kvalitních snímků.</p>
+        <iframe src="https://www.youtube.com/embed/YU1qU7-XabU" height="300" width="600" frameborder="0"></iframe>
+        <p class="minitext">*Zachyceno s GeForce RTX 4090 v rozlišení 3840 x 2160, nový režim Max Ray Tracing, DLSS 3, beta verze.</p>
+    </div>
+</div>
+<div id="RayReconstruction">
+    <div class="containerFRAME">
+        <h1>DLSS Ray Reconstruction</h1>
+        <p>Zvyšuje kvalitu obrazu u všech grafických karet GeForce RTX pomocí umělé inteligence, která generuje dodatečné pixely pro intenzivní ray-tracované scény. DLSS nahrazuje ručně laděné snižování šumu sítí umělé inteligence vytrénovanou superpočítači NVIDIA. Ta generuje mezi vzorkovanými paprsky pixely vyšší kvality.</p>
+        <iframe src="https://www.youtube.com/embed/bTJYvtPRRcM" height="300" width="600" frameborder="0"></iframe>
+        <p class="minitext">*Captured with GeForce RTX 4090 at 3840 x 2160, highest game settings and RT Overdrive mode</p>
+    </div>
+</div>
+<div id="SuperResolution">
+    <div class="containerSUPER">
+        <h1>DLSS super rozlišení</h1>
+        <p>Zvyšuje výkon všech grafických karet GeForce RTX pomocí umělé inteligence pro tvorbu snímků s vyšším rozlišením ze vstupních snímků s nižším rozlišením. DLSS vzorkuje více obrázků v nižším rozlišení a využívá pohybová data a zpětnou vazbu z předchozích snímků k rekonstrukci nativní kvality obrazu.</p>
+        <iframe src="https://www.youtube.com/embed/K8DddlREHEE" height="300" width="600" frameborder="0"></iframe>
+        <p class="minitext">*Captured at 3840 x 2160 resolution, highest game settings</p>
+    </div>
+</div>
+<div id="DLAA">
+
+
+    <div class="containerDLAA">
+        <h1>Deep Learning Anti-aliasing</h1>
+        <p>Zajišťuje vyšší kvalitu obrazu pro všechny grafické karty GeForce RTX díky anti-aliasingu s umělou inteligencí. DLAA využívá stejnou technologii Super Resolution vyvinutou pro DLSS, která kvůli maximalizaci kvality obrazu rekonstruuje obraz s nativním rozlišením.</p>
+        <iframe src="https://www.youtube.com/embed/CgSLIV7lWoI" height="300" width="600" frameborder="0"></iframe>
+        <p class="minitext">*Captured at 3840 x 2160 resolution, highest game settings</p>
+    </div>
+</div>
+<div id="vykon">
+    <div class="containerVYKON">
+        <h1>Výkon</h1>
+        <img src="vykon.png" alt="vykon">
+        <p class="minitext">Rozlišení 3840 x 2160, nejvyšší herní nastavení, režim DLSS Super Resolution Performance, DLSS Frame Generation na kartách RTX řady 40, i9-12900K, 32 GB RAM, Windows 11 x64. Technologická ukázka hry Cyberpunk 2077 s novým režimem Ray Tracing: Overdrive založeným na beta verzi.</p>
+    </div>
+</div>
+    <footer>
+        <p>Toto je clone z webové stránky <a href="https://www.nvidia.com/cs-cz/geforce/technologies/dlss/">https://www.nvidia.com/cs-cz/geforce/technologies/dlss/</a></p>
+        <p>Udělal Justin Jindřich Lukes</p>
+        <p>Udělal jsem za 5h 32m</p>
+        <a href="contact.html">Contact</a></p>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: black;
+}
+*{
+    scroll-behavior: smooth;
+}
+.containerMAIN{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-ada-dlss-hero-bg-full-1280x2276-p@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: unset;
+    background-size: cover;
+    text-align: center;
+    
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    font-size: 2vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.back{
+    background-color: red;
+    float: right;
+}
+.containerTABLE{
+    background-color: black;
+    justify-content: center; 
+    align-items: center; 
+    height: 60vh; 
+}
+
+.containerTABLE h1 {
+    padding-top: 60px;
+    text-align: center;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 2.5vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:first-child{
+    left:0;
+    max-width: 75px;
+    width: 75px;
+}
+
+td{
+    border-top:solid white 1px
+}
+
+.containerFRAME{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/nvidia-dlss-video-xlrg-hero-background-bb770-l.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: unset;
+    background-size: cover;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.containerSUPER{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-super-resolution-gow-banner-background-image-spec2-bb770_550-t@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: unset;
+    background-size: cover;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.containerDLAA{
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-anti-aliasing-no-mans-sky-banner-background-image-spec2-bb770_550-t@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: unset;
+    background-size: cover;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+
+.containerVYKON{
+    
+    padding-bottom: 200px;
+    text-align: center;
+    background-color: #1A1A1A;
+}
+
+
+.minitext{
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+
+
+
+
+h1{
+    padding-top: 60px;
+}
+
